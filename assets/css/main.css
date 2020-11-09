@@ -3933,6 +3933,7 @@ input, select, textarea {
 				}
 				ul.project-links {
 					padding-left: 0;
+					display: block;
 				}
 
 			}
