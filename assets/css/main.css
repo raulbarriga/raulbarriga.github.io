@@ -2854,6 +2854,7 @@ input, select, textarea {
 	}
 	ul.project-links {
 		padding-left: 0;
+		display: none;
 	}
 
 		ul li {
@@ -3763,6 +3764,11 @@ input, select, textarea {
 				display: none;
 			}
 
+			#nav ul.project-links {
+				padding-left: 0;
+				display: block;
+			}
+
 		}
 
 /* Main */
@@ -3835,8 +3841,8 @@ input, select, textarea {
 
 			}
 		#first-article{
-			margin: 0.1px;
-    		transform: translate(50%, 0px);
+			margin: 0.1px !important;
+    		transform: translate(50%, 0px) !important;
 		}
 
 		#main > .posts {
@@ -3907,6 +3913,18 @@ input, select, textarea {
 				#main > .posts > * {
 					padding: 2.5rem;
 					width: 50%;
+				}
+				ul {
+					list-style: none;
+					margin: 0 0 2rem 0;
+				}
+				ul.icons li:last-child {
+					padding-right: 0;
+					justify-content: center;
+					display: flex;
+				}
+				ul.project-links {
+					padding-left: 0;
 				}
 
 			}
