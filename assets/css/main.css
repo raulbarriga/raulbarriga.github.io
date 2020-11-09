@@ -1542,6 +1542,14 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3rem;
 						}
+					#nav ul.project-links {
+						padding-left: 0 !important;
+						display: block !important;
+					}
+					#first-article{
+						margin: 0.1px !important;
+						transform: translate(50%, 0px) !important;
+					}
 
 		}
 
