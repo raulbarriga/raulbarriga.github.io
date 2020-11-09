@@ -2799,7 +2799,6 @@ input, select, textarea {
 		}
 
 /* Icons */
-
 	ul.icons {
 		cursor: default;
 		list-style: none;
@@ -2814,6 +2813,8 @@ input, select, textarea {
 
 			ul.icons li:last-child {
 				padding-right: 0;
+				justify-content: center;
+				display: flex;
 			}
 
 			ul.icons li .icon:before {
@@ -2833,7 +2834,7 @@ input, select, textarea {
 			transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 			font-size: 1rem;
 		}
-
+		
 /* List */
 
 	ol {
@@ -2847,9 +2848,12 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2rem 0;
 		padding-left: 1rem;
+	}
+	ul.project-links {
+		padding-left: 0;
 	}
 
 		ul li {
@@ -2984,6 +2988,8 @@ input, select, textarea {
 
 			header br {
 				display: none;
+				display: flex;
+    			justify-content: center;
 			}
 
 		}
@@ -3448,6 +3454,9 @@ input, select, textarea {
 				transform: translateY(4rem);
 				opacity: 0;
 			}
+			#nav ul.icons.alt ul {
+				padding-left: 0;
+			}
 
 		@media screen and (max-width: 980px) {
 
@@ -3471,6 +3480,8 @@ input, select, textarea {
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
 				min-height: 80vh;
+				display: flex;
+    			justify-content: center;
 			}
 
 				#intro h1 {
@@ -3823,6 +3834,10 @@ input, select, textarea {
 					}
 
 			}
+		#first-article{
+			margin: 0.1px;
+    		transform: translate(50%, 0px);
+		}
 
 		#main > .posts {
 			display: -moz-flex;
@@ -3897,6 +3912,10 @@ input, select, textarea {
 			}
 
 			@media screen and (max-width: 736px) {
+				#first-article{
+					margin: 0;
+					transform: translate(0%, 0px);
+				}
 
 				#main > .posts > * {
 					width: 100%;
@@ -4647,6 +4666,8 @@ input, select, textarea {
 			#navPanel .close:hover {
 				color: #212931;
 			}
+			
+			
 
 			@media screen and (max-width: 736px) {
 
@@ -4654,7 +4675,7 @@ input, select, textarea {
 					height: 4rem;
 					line-height: 4rem;
 				}
-
+				
 			}
 
 		@media screen and (max-width: 980px) {
