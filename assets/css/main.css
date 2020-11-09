@@ -3931,8 +3931,8 @@ input, select, textarea {
 
 			@media screen and (max-width: 736px) {
 				#first-article{
-					margin: 0;
-					transform: translate(0%, 0px);
+					margin: 0 !important;
+					transform: translate(0%, 0px) !important;
 				}
 
 				#main > .posts > * {
