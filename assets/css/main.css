@@ -3766,7 +3766,7 @@ input, select, textarea {
 
 			#nav ul.project-links {
 				padding-left: 0;
-				display: block;
+				display: block !important;
 			}
 
 		}
