@@ -178,6 +178,7 @@ input, select, textarea {
 	p {
 		text-align: justify;
 		margin: 0 0 2rem 0;
+		height: auto;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3848,6 +3849,25 @@ input, select, textarea {
 					}
 
 			}
+
+			@media screen and (max-width: 1017px) {
+				header{
+					height: 99px;
+				}
+			}
+
+			@media screen and (max-width: 926px) {
+				#first-article p{
+					height: auto;
+				}
+				p{
+					height: 102px;
+				}
+				p:last-of-type{
+					height: auto;
+				}
+			}
+			
 		#first-article{
 			margin: 0.1px !important;
     		transform: translate(50%, 0px) !important;
