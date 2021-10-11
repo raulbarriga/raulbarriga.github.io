@@ -176,9 +176,10 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		text-align: left;
 		margin: 0 0 2rem 0;
 		height: auto;
+		min-height: 139.38px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2924,6 +2925,7 @@ input, select, textarea {
 
 	header {
 		cursor: default;
+		min-height: 99px;
 	}
 
 		header > .date {
@@ -3866,6 +3868,14 @@ input, select, textarea {
 				}
 				p:last-of-type{
 					height: auto;
+				}
+			}
+			
+			@media screen and (max-width: 736px) {
+				p {
+					text-align: justify;
+					margin: 0 auto 2rem auto;
+					width: 90.5%;
 				}
 			}
 			
