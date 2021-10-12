@@ -4375,6 +4375,10 @@ input, select, textarea {
 			font-size: 0.8rem;
 		}
 
+		#footer p.footer-p {
+			min-height: 0;
+		}
+
 		@media screen and (max-width: 980px) {
 
 			#footer {
@@ -4777,10 +4781,10 @@ input, select, textarea {
 		#sixth-article .image.fit {
 			/* margin: 5rem 0 2.5rem 0; */
 		}
-		#third-article p,
+		/* #third-article p,
 		#fourth-article p,
 		#fifth-article p,
 		#sixth-article p {
-			/* margin: 0 0 4rem 0; */
-		} */
-	}
+			/* margin: 0 0 4rem 0; 
+		} 
+	} */
