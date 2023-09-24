@@ -294,7 +294,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #212931;
+		color: #afd7ff;
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
@@ -308,7 +308,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #212931;
+		color: #fff;
 	}
 
 	blockquote {
@@ -3900,6 +3900,7 @@ input, select, textarea {
 			text-align: center;
 			width: 100%;
 			padding: 0;
+			background-color: #222931;
 		}
 
 			#main > .posts > * {
@@ -4772,6 +4773,9 @@ input, select, textarea {
 		}
 
 	}
+	#posts p {
+		color: #fff;
+	  }
 
 	/* Fix the title margin for long names */
 	/* @media (min-width:737px) and (max-width:1104px) {
