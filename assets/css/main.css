@@ -4050,12 +4050,12 @@ input, select, textarea {
 
 		#footer a {
 			color: #717981;
-			border-bottom-color: rgba(113, 121, 129, 0.5);
+			border-bottom-color: #717981;
 		}
 
 			#footer a:hover {
-				border-bottom-color: transparent;
-				color: #18bfef !important;
+				border-bottom-color: #2f3740;
+				color: #2f3740 !important;
 			}
 
 		#footer strong, #footer b {
