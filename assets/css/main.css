@@ -2216,8 +2216,9 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #212931;
-		color: #212931 !important;
+		box-shadow: inset 0 0 0 2px #2f3740;
+		/* color: #212931 !important; */
+		color: white;
 	}
 
 		input[type="submit"]:hover,
@@ -2225,8 +2226,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
+			box-shadow: inset 0 0 0 2px #595959;
+			color: #595959 !important;
 		}
 
 		input[type="submit"].primary,
