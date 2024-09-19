@@ -3880,10 +3880,10 @@ input, select, textarea {
 				}
 			}
 			
-		#first-article{
+		/* #first-article{
 			margin: 0.1px !important;
     		transform: translate(50%, 0px) !important;
-		}
+		} */
 
 		#main > .posts {
 			display: -moz-flex;
