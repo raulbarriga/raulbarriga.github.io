@@ -1548,10 +1548,10 @@ input, select, textarea {
 						padding-left: 0 !important;
 						display: block !important;
 					}
-					#first-article{
+					/* #first-article{
 						margin: 0.1px !important;
 						transform: translate(50%, 0px) !important;
-					}
+					} */
 
 		}
 
@@ -2965,6 +2965,7 @@ input, select, textarea {
 		header.major {
 			margin: 0 0 4rem 0;
 			text-align: center;
+			color: white;
 		}
 
 			header.major > :last-child {
@@ -3797,7 +3798,7 @@ input, select, textarea {
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #eeeeee;
+			/* border-top: solid 2px #eeeeee; */
 			margin: 0;
 		}
 
@@ -3880,10 +3881,10 @@ input, select, textarea {
 				}
 			}
 			
-		#first-article{
+		/* #first-article{
 			margin: 0.1px !important;
     		transform: translate(50%, 0px) !important;
-		}
+		} */
 
 		#main > .posts {
 			display: -moz-flex;
@@ -4776,6 +4777,11 @@ input, select, textarea {
 	}
 	#posts p {
 		color: #fff;
+	  }
+
+	  /* regardless of breakpoints */
+	  #main article.post.featured {
+		background-color: #1e252d;
 	  }
 
 	/* Fix the title margin for long names */
